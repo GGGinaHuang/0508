@@ -1,0 +1,40 @@
+@charset "utf-8";
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: #E6F079;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1:hover{transform: translate(3,3)}
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: #F2C588;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2:hover{transform: rotate(5deg)}
+.box3 {
+    background-color: #65E9EA;
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
